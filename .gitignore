@@ -3,3 +3,6 @@
 .wwebjs_cache
 node_modules
 backupserver
+runwa.log
+schedule.log
+server.js
