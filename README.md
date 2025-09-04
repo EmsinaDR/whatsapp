@@ -1,0 +1,2 @@
+::Instalasi
+- npm install
