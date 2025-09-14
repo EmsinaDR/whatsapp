@@ -1,1 +1,605 @@
-const a0_0x1d4de7=a0_0x4fb8;(function(_0x23e366,_0x5d23a6){const _0x1831a0=a0_0x4fb8,_0x3fc74d=_0x23e366();while(!![]){try{const _0xfdbcf5=parseInt(_0x1831a0(0x130))/0x1*(-parseInt(_0x1831a0(0x13c))/0x2)+-parseInt(_0x1831a0(0xc3))/0x3*(-parseInt(_0x1831a0(0xca))/0x4)+parseInt(_0x1831a0(0x10e))/0x5*(-parseInt(_0x1831a0(0x107))/0x6)+-parseInt(_0x1831a0(0xc1))/0x7+-parseInt(_0x1831a0(0x121))/0x8+-parseInt(_0x1831a0(0x114))/0x9+-parseInt(_0x1831a0(0xe4))/0xa*(-parseInt(_0x1831a0(0x9b))/0xb);if(_0xfdbcf5===_0x5d23a6)break;else _0x3fc74d['push'](_0x3fc74d['shift']());}catch(_0x3f7b69){_0x3fc74d['push'](_0x3fc74d['shift']());}}}(a0_0x1c87,0x90384));const {Client,LocalAuth,MessageMedia}=require(a0_0x1d4de7(0xfe)),qrcode=require(a0_0x1d4de7(0xf1)),express=require(a0_0x1d4de7(0xa9)),axios=require(a0_0x1d4de7(0x102)),http=require(a0_0x1d4de7(0x139)),socketIO=require(a0_0x1d4de7(0xd5)),fs=require('fs'),cors=require(a0_0x1d4de7(0x12e)),path=require(a0_0x1d4de7(0xd9));function a0_0x1c87(){const _0x3d9594=['Informasi\x20Whatsapp\x20telah\x20aktif','json','🚀\x20Memulai\x20sesi\x20baru:\x20','✅\x20Pesan\x20berhasil\x20dikirim\x20ke\x20','/send-media-file','endsWith','\x22\x20sudah\x20aktif,\x20skip\x20inisialisasi\x20ulang.','delete','toDataURL','❌\x20Gagal\x20kirim\x20pesan\x20otomatis\x20ke\x20','toString','authenticated','success','89194IhkRYD','ready','29331ovlyzi','sessions','localhost','Sesi\x20berhasil\x20dihapus','connected','\x20dikirim\x20ke\x20','internal','68dfiiHW','Gagal\x20kirim\x20media:','❌\x20Sesi\x20\x22','session-','<----------------------------------------->','.jpg','trim','params','Gagal\x20menghapus\x20sesi','.png','POST','socket.io','\x20[✔]\x20Memuat\x20Modul...','/status/:id','/logout','path','clear','IPv4','uncaughtException','name','sendMessage','string','networkInterfaces','--disable-setuid-sandbox','❌\x20File\x20media\x20tidak\x20ditemukan','isGroup','3033010XnFKeq','❌\x20Session\x20tidak\x20ditemukan','\x20📡\x20Tunggu\x20hingga\x20QR\x20ditampilkan...','video/mp4','createServer','join','/status','❌\x20Error\x20saat\x20ambil\x20grup:','query','Bot\x20siap!','\x22\x20dihapus.','❌\x20Parameter\x20number\x20atau\x20message\x20kosong','emit','qrcode','reply','toLowerCase','media','map','CONNECTED','-----------------------------------------','❌\x20Gagal\x20kirim\x20media:\x20','originalname','🟨\x20QR\x20Code\x20diterima\x20untuk\x20sesi\x20\x22','multer','\x20(via\x20sesi\x20\x22','\x22\x20sudah\x20siap.','whatsapp-web.js','getChats','Sesi\x20sudah\x20ada','❌\x20Gagal\x20kirim\x20media','axios','http://','Logged\x20out','image/jpeg','/send-message-get','6vPptuy','@c.us','filter','\x20[⚙]\x20Menyalakan\x20Engine\x20WebSocket...','\x20is\x20ready','Hello\x20Bro,\x20server\x20baru\x20restart!','ID\x20wajib\x20diisi','4309675HmDZmu','isReady','=========================================','readFileSync','qr-','Session\x20tidak\x20ditemukan','6207381XEpETV','Pesan\x20berhasil\x20dikirim','\x22\x20berhasil\x20login.','error','send','not\x20connected','extname','❌\x20Gagal\x20proses\x20pengiriman:\x20','\x20Dibangun\x20oleh\x20ATA\x20DIGITAL\x20💡','GET','single','existsSync','\x20[✔]\x20Menyiapkan\x20Session\x20WhatsApp...','8945544DUTdTu','post','_serialized','fromFilePath','disconnected','❌\x20Gagal\x20kirim\x20pesan\x20otomatis\x20ke\x206285329860005:','failed','Session\x20ID\x20dibutuhkan','--no-sandbox','C:\x5cProgram\x20Files\x5cGoogle\x5cChrome\x5cApplication\x5cchrome.exe','❌\x20Session\x20tidak\x20ditemukan\x20atau\x20belum\x20siap','0.0.0.0','Bukan\x20grup','cors','groupId','1aulRKf','status','❌\x20Gagal\x20mengirim\x20pesan','📎\x20Media\x20','participants','family','body','.mp3','get','http','.wwebjs_auth','\x20IP\x20Server\x20:\x20http://','1671638PRxywr','end','6285329860005','/remove-session/:sessionName','/send-media','/start-session','address','⚠️\x20Unhandled\x20Promise\x20Rejection:','/group-members/:groupId','⚠️\x20Session\x20\x22','\x20Kontak\x20\x20\x20\x20:\x20085329860005','file','base64','143VDorJe','❌\x20Uncaught\x20Exception:','.pdf',':3000\x20','push','message','from','sent','uploads/','/siakad/public/whatsapp/auto-reply','🔐\x20Sesi\x20\x22','logout','length','@g.us','express','rmSync','values','Sesi\x20GuruId\x20dibuat\x20langsung\x20dari\x20server.js','\x22\x20siap,\x20langsung\x20kirim\x20pesan.','info','=========================================\x0a','❌\x20Gagal\x20ambil\x20grup','use','log','unhandledRejection'];a0_0x1c87=function(){return _0x3d9594;};return a0_0x1c87();}function getMimeType(_0x22eaa0){const _0x1ed833=a0_0x1d4de7,_0x4ac481=path[_0x1ed833(0x11a)](_0x22eaa0)[_0x1ed833(0xf3)]();switch(_0x4ac481){case _0x1ed833(0xcf):case'.jpeg':return _0x1ed833(0x105);case _0x1ed833(0xd3):return'image/png';case _0x1ed833(0x9d):return'application/pdf';case'.mp4':return _0x1ed833(0xe7);case _0x1ed833(0x137):return'audio/mpeg';default:return'application/octet-stream';}}const app=express(),server=http[a0_0x1d4de7(0xe8)](app),io=socketIO(server,{'cors':{'origin':'*','methods':[a0_0x1d4de7(0x11d),a0_0x1d4de7(0xd4)]}});app[a0_0x1d4de7(0xb1)](express[a0_0x1d4de7(0xb5)]()),app[a0_0x1d4de7(0xb1)](express['urlencoded']({'extended':!![]}));const multer=require(a0_0x1d4de7(0xfb)),upload=multer({'dest':a0_0x1d4de7(0xa3)});app[a0_0x1d4de7(0xb1)](cors({'origin':'*'}));const sessions={},os=require('os');function getLocalIP(){const _0x39a6bc=a0_0x1d4de7,_0x16b384=os[_0x39a6bc(0xe0)]();for(const _0x2ba8c4 of Object[_0x39a6bc(0xab)](_0x16b384)){for(const _0x512fa1 of _0x2ba8c4){if(_0x512fa1[_0x39a6bc(0x135)]===_0x39a6bc(0xdb)&&!_0x512fa1[_0x39a6bc(0xc9)])return _0x512fa1[_0x39a6bc(0x94)];}}return _0x39a6bc(0xc5);}function a0_0x4fb8(_0x3cbf5a,_0x32c363){const _0x1c8793=a0_0x1c87();return a0_0x4fb8=function(_0x4fb8de,_0x43a4f1){_0x4fb8de=_0x4fb8de-0x93;let _0xd2614b=_0x1c8793[_0x4fb8de];return _0xd2614b;},a0_0x4fb8(_0x3cbf5a,_0x32c363);}const ip=getLocalIP(),createClient=_0x4ad282=>{const _0x5b57b6=a0_0x1d4de7;if(sessions[_0x4ad282])return console[_0x5b57b6(0xb2)](_0x5b57b6(0x97)+_0x4ad282+_0x5b57b6(0xba)),sessions[_0x4ad282];console[_0x5b57b6(0xb2)](_0x5b57b6(0xb6)+_0x4ad282);const _0x457f9b=new Client({'authStrategy':new LocalAuth({'clientId':_0x4ad282,'dataPath':path['join'](__dirname,_0x5b57b6(0x13a),_0x5b57b6(0xcd)+_0x4ad282)}),'puppeteer':{'headless':!![],'executablePath':_0x5b57b6(0x12a),'args':[_0x5b57b6(0x129),_0x5b57b6(0xe1)]}});return _0x457f9b['on']('qr',_0x514511=>{const _0x187004=_0x5b57b6;console[_0x187004(0xb2)](_0x187004(0xfa)+_0x4ad282+'\x22.'),qrcode[_0x187004(0xbc)](_0x514511,(_0x62b4da,_0x120713)=>{const _0x302cab=_0x187004;!_0x62b4da?io[_0x302cab(0xf0)](_0x302cab(0x112)+_0x4ad282,_0x120713):console[_0x302cab(0x117)]('❌\x20Gagal\x20membuat\x20QR\x20Code:',_0x62b4da);});}),_0x457f9b['on'](_0x5b57b6(0xc2),async()=>{const _0x22ba47=_0x5b57b6;console[_0x22ba47(0xb2)]('✅\x20Sesi\x20\x22'+_0x4ad282+_0x22ba47(0xfd)),io[_0x22ba47(0xf0)]('ready-'+_0x4ad282,_0x4ad282+_0x22ba47(0x10b)),io[_0x22ba47(0xf0)]('qr-'+_0x4ad282,'');try{const _0x290c4a=_0x22ba47(0x13e),_0x3418c5=_0x22ba47(0xb4),_0x5362c4=_0x290c4a+_0x22ba47(0x108),_0x1e726e=await _0x457f9b[_0x22ba47(0xde)](_0x5362c4,_0x3418c5);console[_0x22ba47(0xb2)](_0x22ba47(0xb7)+_0x290c4a);}catch(_0x200cee){console[_0x22ba47(0x117)](_0x22ba47(0xbd)+number+':',_0x200cee[_0x22ba47(0xa0)]);}}),_0x457f9b['on'](_0x5b57b6(0xbf),()=>{const _0xe6704c=_0x5b57b6;console[_0xe6704c(0xb2)](_0xe6704c(0xa5)+_0x4ad282+_0xe6704c(0x116));}),_0x457f9b['on']('ready',async()=>{const _0x1e1c62=_0x5b57b6;console['log']('✅\x20Sesi\x20\x22'+_0x4ad282+_0x1e1c62(0xad)),_0x457f9b[_0x1e1c62(0x10f)]=!![];try{const _0x27d16c=_0x1e1c62(0x13e),_0x1d4c57=_0x1e1c62(0xb4),_0x186dd4=_0x27d16c+'@c.us',_0x299d88=await _0x457f9b[_0x1e1c62(0xde)](_0x186dd4,_0x1d4c57);console[_0x1e1c62(0xb2)](_0x1e1c62(0xb7)+_0x27d16c);}catch(_0x4f2b2a){console[_0x1e1c62(0x117)](_0x1e1c62(0x126),_0x4f2b2a[_0x1e1c62(0xa0)]);}}),_0x457f9b['on'](_0x5b57b6(0xc2),()=>{const _0x3b52ed=_0x5b57b6;console['log']('Client\x20siap'),_0x457f9b['isReady']=!![],sendTestMessage(_0x457f9b,_0x3b52ed(0x13e),_0x3b52ed(0xb4));}),_0x457f9b[_0x5b57b6(0xae)]?.['pushname']&&sendTestMessage(_0x457f9b,_0x5b57b6(0x13e),_0x5b57b6(0x10c)),_0x457f9b['on'](_0x5b57b6(0x125),_0x40edac=>{const _0x2e6d06=_0x5b57b6;console['log'](_0x2e6d06(0xcc)+_0x4ad282+'\x22\x20logout:\x20'+_0x40edac),delete sessions[_0x4ad282];const _0x1e37c4=path['join'](__dirname,'sessions',_0x4ad282);fs[_0x2e6d06(0x11f)](_0x1e37c4)&&(fs['rmSync'](_0x1e37c4,{'recursive':!![],'force':!![]}),console[_0x2e6d06(0xb2)]('🧹\x20Folder\x20sesi\x20\x22'+_0x4ad282+_0x2e6d06(0xee)));}),_0x457f9b['on'](_0x5b57b6(0xc2),()=>{const _0x2fe2ff=_0x5b57b6;console[_0x2fe2ff(0xb2)](_0x2fe2ff(0xed));}),_0x457f9b['on'](_0x5b57b6(0xa0),async _0x51f2cf=>{const _0xd0942b=_0x5b57b6;try{const _0x49dab0=await axios[_0xd0942b(0x138)](_0xd0942b(0x103)+ip+_0xd0942b(0xa4),{'params':{'number':_0x51f2cf[_0xd0942b(0xa1)],'message':_0x51f2cf['body']}}),_0x353790=_0x49dab0['data']?.[_0xd0942b(0xf2)],_0x47dcbd=_0x49dab0['data']?.[_0xd0942b(0x99)];_0x353790&&await _0x457f9b['sendMessage'](_0x51f2cf[_0xd0942b(0xa1)],_0x353790);if(_0x47dcbd&&typeof _0x47dcbd===_0xd0942b(0xdf)&&_0x47dcbd[_0xd0942b(0xd0)]()!=='')try{const _0x1ca712=MessageMedia[_0xd0942b(0x124)](_0x47dcbd);await _0x457f9b[_0xd0942b(0xde)](_0x51f2cf[_0xd0942b(0xa1)],_0x1ca712);}catch(_0x5757f8){console[_0xd0942b(0x117)](_0xd0942b(0xcb),_0x5757f8[_0xd0942b(0xa0)]),await _0x457f9b[_0xd0942b(0xde)](_0x51f2cf[_0xd0942b(0xa1)],'⚠️\x20Gagal\x20mengirim\x20file.');}}catch(_0x3bb33a){}}),_0x457f9b['initialize'](),sessions[_0x4ad282]=_0x457f9b,_0x457f9b;};app[a0_0x1d4de7(0x122)](a0_0x1d4de7(0x93),(_0x1b3df2,_0x6b9d7b)=>{const _0x553c0b=a0_0x1d4de7,{id:_0x1905b9}=_0x1b3df2[_0x553c0b(0x136)];if(!_0x1905b9)return _0x6b9d7b[_0x553c0b(0x131)](0x190)['json']({'error':_0x553c0b(0x10d)});if(sessions[_0x1905b9])return _0x6b9d7b[_0x553c0b(0xb5)]({'message':_0x553c0b(0x100)});return createClient(_0x1905b9),_0x6b9d7b['json']({'message':'Sesi\x20dimulai'});}),app[a0_0x1d4de7(0xbb)](a0_0x1d4de7(0x13f),async(_0x1805cd,_0x55ede6)=>{const _0x648522=a0_0x1d4de7,_0x4457c9=_0x1805cd[_0x648522(0xd1)]['sessionName'];if(!sessions[_0x4457c9])return _0x55ede6[_0x648522(0x131)](0x190)['json']({'error':_0x648522(0x113)});try{await sessions[_0x4457c9][_0x648522(0xa6)](),delete sessions[_0x4457c9];const _0x3a4609=path[_0x648522(0xe9)](__dirname,_0x648522(0xc4),_0x648522(0xcd)+_0x4457c9);fs[_0x648522(0xaa)](_0x3a4609,{'recursive':!![],'force':!![]}),_0x55ede6[_0x648522(0xb5)]({'success':!![],'message':_0x648522(0xc6)});}catch(_0x591cb0){console[_0x648522(0x117)]('Error\x20saat\x20menghapus\x20sesi:',_0x591cb0),_0x55ede6['status'](0x1f4)[_0x648522(0xb5)]({'success':![],'message':_0x648522(0xd2),'error':_0x591cb0[_0x648522(0xa0)]});}}),app[a0_0x1d4de7(0xb1)](cors({'origin':'*'})),app['get'](a0_0x1d4de7(0xea),(_0x3bd755,_0x31b716)=>{const _0x389d6d=a0_0x1d4de7;_0x31b716[_0x389d6d(0xb5)]({'status':_0x389d6d(0xf6)});}),app[a0_0x1d4de7(0x138)](a0_0x1d4de7(0xd7),(_0x52d56c,_0x1ae2ec)=>{const _0x21aa4e=a0_0x1d4de7,{id:_0x328cb9}=_0x52d56c[_0x21aa4e(0xd1)];sessions[_0x328cb9]?_0x1ae2ec[_0x21aa4e(0xb5)]({'status':_0x21aa4e(0xc7)}):_0x1ae2ec[_0x21aa4e(0xb5)]({'status':_0x21aa4e(0x119)});}),app['post']('/send-message',async(_0x53bb7a,_0x104c12)=>{const _0x31bfe7=a0_0x1d4de7,{id:_0x431b58,number:_0x5ef1ce,message:_0x220222}=_0x53bb7a[_0x31bfe7(0x136)];if(!sessions[_0x431b58])return _0x104c12[_0x31bfe7(0x131)](0x190)[_0x31bfe7(0xb5)]({'error':_0x31bfe7(0xe5)});try{const _0x8c0b17=_0x5ef1ce+_0x31bfe7(0x108),_0x348496=await sessions[_0x431b58][_0x31bfe7(0xde)](_0x8c0b17,_0x220222);console[_0x31bfe7(0xb2)]('✅\x20Pesan\x20berhasil\x20dikirim\x20ke\x20'+_0x5ef1ce+_0x31bfe7(0xfc)+_0x431b58+'\x22)'),_0x104c12[_0x31bfe7(0x131)](0xc8)[_0x31bfe7(0x13d)]();}catch(_0x4e2343){_0x104c12[_0x31bfe7(0x131)](0x1f4)[_0x31bfe7(0xb5)]({'error':'❌\x20Gagal\x20mengirim\x20pesan','details':_0x4e2343['message']});}}),app[a0_0x1d4de7(0x138)]('/send-message',async(_0x24b483,_0x130fe7)=>{const _0x465a21=a0_0x1d4de7,{id:_0xfc9f95,number:_0x54088e,message:_0x1ba69f}=_0x24b483[_0x465a21(0xec)];if(!sessions[_0xfc9f95])return _0x130fe7[_0x465a21(0x131)](0x190)[_0x465a21(0xb5)]({'error':_0x465a21(0xe5)});if(!_0x54088e||!_0x1ba69f)return _0x130fe7[_0x465a21(0x131)](0x190)['json']({'error':_0x465a21(0xef)});try{const _0x7a8f0b=_0x54088e+_0x465a21(0x108),_0x364685=await sessions[_0xfc9f95][_0x465a21(0xde)](_0x7a8f0b,_0x1ba69f);console[_0x465a21(0xb2)](_0x465a21(0xb7)+_0x54088e+_0x465a21(0xfc)+_0xfc9f95+'\x22)'),_0x130fe7[_0x465a21(0x131)](0xc8)['json']({'status':!![],'message':_0x465a21(0x115)});}catch(_0x411eb7){console[_0x465a21(0x117)]('❌\x20Gagal\x20kirim\x20pesan\x20ke\x20'+_0x54088e+':',_0x411eb7[_0x465a21(0xa0)]),_0x130fe7[_0x465a21(0x131)](0x1f4)['json']({'status':![],'error':_0x465a21(0x132),'details':_0x411eb7[_0x465a21(0xa0)]});}}),app[a0_0x1d4de7(0x122)](a0_0x1d4de7(0x140),upload[a0_0x1d4de7(0x11e)](a0_0x1d4de7(0xf4)),async(_0x58c3ed,_0x1dc5f3)=>{const _0x2ff3aa=a0_0x1d4de7,{id:_0x30d4f8,number:_0x58afe1,caption:_0x297911}=_0x58c3ed[_0x2ff3aa(0x136)],_0x390133=_0x58c3ed[_0x2ff3aa(0x99)];if(!sessions[_0x30d4f8])return _0x1dc5f3[_0x2ff3aa(0x131)](0x190)[_0x2ff3aa(0xb5)]({'error':'❌\x20Session\x20tidak\x20ditemukan'});if(!_0x390133)return _0x1dc5f3['status'](0x190)[_0x2ff3aa(0xb5)]({'error':'❌\x20File\x20media\x20tidak\x20ditemukan'});try{const _0x4baa24=_0x390133[_0x2ff3aa(0xd9)],_0x2a3f55=_0x390133[_0x2ff3aa(0xf9)],_0x2343b6=fs[_0x2ff3aa(0x111)](_0x4baa24),_0x397a33=getMimeType(_0x2a3f55),_0x20c8ff=new MessageMedia(_0x397a33,_0x2343b6[_0x2ff3aa(0xbe)](_0x2ff3aa(0x9a)),_0x2a3f55);await sessions[_0x30d4f8][_0x2ff3aa(0xde)](_0x58afe1+'@c.us',_0x20c8ff,{'caption':_0x297911}),console[_0x2ff3aa(0xb2)](_0x2ff3aa(0x133)+_0x2a3f55+_0x2ff3aa(0xc8)+_0x58afe1+_0x2ff3aa(0xfc)+_0x30d4f8+'\x22)'),_0x1dc5f3[_0x2ff3aa(0x131)](0xc8)[_0x2ff3aa(0xb5)]({'status':_0x2ff3aa(0xc0),'message':'Media\x20terkirim!'});}catch(_0x4fa173){console[_0x2ff3aa(0x117)](_0x2ff3aa(0xf8)+_0x4fa173['message']),_0x1dc5f3['status'](0x1f4)[_0x2ff3aa(0xb5)]({'error':'❌\x20Gagal\x20kirim\x20media','details':_0x4fa173[_0x2ff3aa(0xa0)]});}}),app['post'](a0_0x1d4de7(0xb8),upload[a0_0x1d4de7(0x11e)](a0_0x1d4de7(0xf4)),async(_0x4d6f26,_0x2e5e5a)=>{const _0x2cf141=a0_0x1d4de7,{id:_0x3e2624,number:_0x487da1,caption:_0x36f72e}=_0x4d6f26[_0x2cf141(0x136)],_0x13256d=_0x4d6f26[_0x2cf141(0x99)];if(!sessions[_0x3e2624])return _0x2e5e5a[_0x2cf141(0x131)](0x190)[_0x2cf141(0xb5)]({'error':_0x2cf141(0xe5)});if(!_0x13256d)return _0x2e5e5a['status'](0x190)['json']({'error':_0x2cf141(0xe2)});try{const _0x47b4df=_0x13256d['path'],_0x4c2410=_0x13256d[_0x2cf141(0xf9)],_0x1bdb39=fs[_0x2cf141(0x111)](_0x47b4df),_0x4a0986=getMimeType(_0x4c2410),_0x1a7461=new MessageMedia(_0x4a0986,_0x1bdb39[_0x2cf141(0xbe)]('base64'),_0x4c2410),_0x2ffe0a=Array['isArray'](_0x487da1)?_0x487da1:[_0x487da1],_0x1dd00e=[];for(const _0x213a0d of _0x2ffe0a){let _0x3ffa11=_0x213a0d;!_0x213a0d[_0x2cf141(0xb9)]('@c.us')&&!_0x213a0d[_0x2cf141(0xb9)](_0x2cf141(0xa8))&&(_0x3ffa11=_0x213a0d+_0x2cf141(0x108));try{await sessions[_0x3e2624][_0x2cf141(0xde)](_0x3ffa11,_0x1a7461,{'caption':_0x36f72e}),console[_0x2cf141(0xb2)]('📎\x20Media\x20'+_0x4c2410+_0x2cf141(0xc8)+_0x3ffa11),_0x1dd00e[_0x2cf141(0x9f)]({'number':_0x3ffa11,'status':_0x2cf141(0xa2)});}catch(_0x54ce63){console[_0x2cf141(0x117)]('❌\x20Gagal\x20kirim\x20ke\x20'+_0x3ffa11+':\x20'+_0x54ce63[_0x2cf141(0xa0)]),_0x1dd00e['push']({'number':_0x3ffa11,'status':_0x2cf141(0x127),'error':_0x54ce63[_0x2cf141(0xa0)]});}}_0x2e5e5a[_0x2cf141(0x131)](0xc8)['json']({'status':_0x2cf141(0xc0),'results':_0x1dd00e});}catch(_0x3e02ae){console['error'](_0x2cf141(0x11b)+_0x3e02ae[_0x2cf141(0xa0)]),_0x2e5e5a[_0x2cf141(0x131)](0x1f4)['json']({'error':_0x2cf141(0x101),'details':_0x3e02ae[_0x2cf141(0xa0)]});}}),app[a0_0x1d4de7(0x138)](a0_0x1d4de7(0x96),async(_0x5ed8aa,_0x1c4a72)=>{const _0x2d4ca4=a0_0x1d4de7,_0x24ffc7=_0x5ed8aa[_0x2d4ca4(0xec)]['id']||_0x5ed8aa['headers']['x-session-id'];if(!_0x24ffc7)return _0x1c4a72[_0x2d4ca4(0x131)](0x190)['json']({'error':_0x2d4ca4(0x128)});const _0x166a94=sessions[_0x24ffc7];if(!_0x166a94)return _0x1c4a72[_0x2d4ca4(0x131)](0x194)['json']({'error':'Session\x20tidak\x20ditemukan'});try{const _0x4dbb72=await _0x166a94['getChatById'](_0x5ed8aa['params'][_0x2d4ca4(0x12f)]);if(!_0x4dbb72[_0x2d4ca4(0xe3)])return _0x1c4a72[_0x2d4ca4(0x131)](0x190)[_0x2d4ca4(0x118)](_0x2d4ca4(0x12d));const _0x406942=_0x4dbb72['participants'][_0x2d4ca4(0xf5)](_0x264b83=>_0x264b83['id']['user']);_0x1c4a72[_0x2d4ca4(0xb5)](_0x406942);}catch(_0x3263cc){_0x1c4a72['status'](0x1f4)[_0x2d4ca4(0x118)](_0x3263cc[_0x2d4ca4(0xa0)]);}}),app[a0_0x1d4de7(0x138)]('/get-groups',async(_0xc1e354,_0x2347ea)=>{const _0x5d81d9=a0_0x1d4de7,_0x7d08f=_0xc1e354[_0x5d81d9(0xec)]['id'],_0x4fa784=sessions[_0x7d08f];if(!_0x4fa784||!_0x4fa784[_0x5d81d9(0xae)])return _0x2347ea['status'](0x194)[_0x5d81d9(0xb5)]({'status':![],'message':_0x5d81d9(0x12b)});try{const _0x177d64=await _0x4fa784[_0x5d81d9(0xff)](),_0x1c1297=_0x177d64[_0x5d81d9(0x109)](_0xda4e89=>_0xda4e89[_0x5d81d9(0xe3)])[_0x5d81d9(0xf5)](_0x28921f=>({'id':_0x28921f['id'][_0x5d81d9(0x123)],'name':_0x28921f[_0x5d81d9(0xdd)],'participants':_0x28921f[_0x5d81d9(0x134)]?.[_0x5d81d9(0xa7)]||0x0}));_0x2347ea[_0x5d81d9(0x131)](0xc8)[_0x5d81d9(0xb5)]({'status':!![],'groups':_0x1c1297});}catch(_0x3c6dbb){console[_0x5d81d9(0x117)](_0x5d81d9(0xeb),_0x3c6dbb),_0x2347ea[_0x5d81d9(0x131)](0x1f4)[_0x5d81d9(0xb5)]({'status':![],'message':_0x5d81d9(0xb0),'error':_0x3c6dbb['toString']()});}}),app[a0_0x1d4de7(0x138)](a0_0x1d4de7(0x106),async(_0x5cccfa,_0x4669d6)=>{const _0xcd038=a0_0x1d4de7,{id:_0x332c17,number:_0x5261eb,message:_0x11ec8f}=_0x5cccfa['query'];if(!sessions[_0x332c17])return _0x4669d6[_0xcd038(0x131)](0x190)[_0xcd038(0xb5)]({'error':_0xcd038(0xe5)});try{const _0x3f9503=_0x5261eb+_0xcd038(0x108),_0x461079=await sessions[_0x332c17][_0xcd038(0xde)](_0x3f9503,_0x11ec8f);console[_0xcd038(0xb2)](_0xcd038(0xb7)+_0x5261eb+'\x20(via\x20sesi\x20\x22'+_0x332c17+'\x22)'),_0x4669d6[_0xcd038(0x131)](0xc8)[_0xcd038(0xb5)]({'success':!![],'message':_0xcd038(0x115)});}catch(_0x3a2c8a){_0x4669d6['status'](0x1f4)['json']({'error':_0xcd038(0x132),'details':_0x3a2c8a[_0xcd038(0xa0)]});}}),app[a0_0x1d4de7(0x122)](a0_0x1d4de7(0xd8),(_0x1d8013,_0x5efb1a)=>{const _0x49b99f=a0_0x1d4de7,{id:_0x18f95b}=_0x1d8013[_0x49b99f(0x136)];if(!sessions[_0x18f95b])return _0x5efb1a[_0x49b99f(0x131)](0x190)[_0x49b99f(0xb5)]({'error':'Session\x20tidak\x20ditemukan'});sessions[_0x18f95b][_0x49b99f(0xa6)](),delete sessions[_0x18f95b],_0x5efb1a[_0x49b99f(0xb5)]({'success':!![],'message':_0x49b99f(0x104)});}),process['on'](a0_0x1d4de7(0xdc),_0x45491a=>{const _0x3b7149=a0_0x1d4de7;console[_0x3b7149(0x117)](_0x3b7149(0x9c),_0x45491a);}),process['on'](a0_0x1d4de7(0xb3),(_0x3498ad,_0x296bc1)=>{const _0x46b948=a0_0x1d4de7;console[_0x46b948(0x117)](_0x46b948(0x95),_0x3498ad);}),server['listen'](0xbb8,a0_0x1d4de7(0x12c),()=>{const _0x32dde6=a0_0x1d4de7;console[_0x32dde6(0xda)](),console[_0x32dde6(0xb2)](_0x32dde6(0x110)),console[_0x32dde6(0xb2)]('\x20\x20🔌\x20ATA\x20DIGITAL\x20WA\x20GATEWAY\x20&\x20Boot\x20Asisten\x20\x20'),console[_0x32dde6(0xb2)](_0x32dde6(0x110)),console['log'](_0x32dde6(0xd6)),console['log'](_0x32dde6(0x120)),console[_0x32dde6(0xb2)](_0x32dde6(0x10a)),console[_0x32dde6(0xb2)](_0x32dde6(0xce)),console[_0x32dde6(0xb2)](_0x32dde6(0xe6)),console[_0x32dde6(0xb2)]('\x20Jika\x20sudah\x20login,\x20status\x20akan\x20muncul\x20dan\x20siap\x20digunaka...'),console[_0x32dde6(0xb2)](_0x32dde6(0xf7)),console[_0x32dde6(0xb2)](_0x32dde6(0x11c)),console['log'](_0x32dde6(0x98)),console[_0x32dde6(0xb2)]('\x20Alamat\x20\x20\x20\x20:\x20Banjarharjo\x20-\x20Brebes,\x2052265\x20'),console[_0x32dde6(0xb2)](_0x32dde6(0x13b)+ip+_0x32dde6(0x9e)),console[_0x32dde6(0xb2)](_0x32dde6(0xaf)),!sessions['GuruId']&&(createClient('GuruId'),console['log'](_0x32dde6(0xac))),console[_0x32dde6(0xb2)]('Server\x20siap\x20digunakan');});
+// ✅ Import semua modul yang diperlukan
+const { Client, LocalAuth, MessageMedia } = require('whatsapp-web.js');
+const qrcode = require('qrcode');
+const express = require('express');
+const axios = require('axios');
+const http = require('http');
+const socketIO = require('socket.io');
+const fs = require('fs');
+
+// ✅ 🔥 Tambahkan ini untuk menangani CORS
+const cors = require('cors');
+
+const path = require('path');
+function getMimeType(filename) {
+    const ext = path.extname(filename).toLowerCase();
+    switch (ext) {
+        case '.jpg': case '.jpeg': return 'image/jpeg';
+        case '.png': return 'image/png';
+        case '.PNG': return 'image/png';
+        case '.pdf': return 'application/pdf';
+        case '.mp4': return 'video/mp4';
+        case '.mp3': return 'audio/mpeg';
+        default: return 'application/octet-stream';
+    }
+}
+
+const app = express();
+
+// ✅ Buat server HTTP & socket (tidak diubah)
+const server = http.createServer(app);
+
+// ✅ Konfigurasi Socket.IO dan CORS untuk WebSocket
+const io = socketIO(server, {
+    cors: {
+        origin: "*", // ✅ Izinkan semua origin untuk socket.io
+        methods: ["GET", "POST"]
+    }
+});
+
+// ✅ Gunakan JSON body parser untuk Express
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+const multer = require('multer');
+const upload = multer({ dest: 'uploads/' });
+// ✅ 🔥 Tambahkan middleware CORS agar fetch() tidak gagal
+app.use(cors({ origin: '*' })); // 💡 Bisa diganti dengan origin tertentu jika butuh
+
+// ✅ Simpan semua sesi client WhatsApp
+const sessions = {};
+const os = require('os');
+
+// Fungsi untuk mendapatkan IP lokal
+function getLocalIP() {
+    const interfaces = os.networkInterfaces();
+    for (const iface of Object.values(interfaces)) {
+        for (const i of iface) {
+            if (i.family === 'IPv4' && !i.internal) {
+                return i.address;
+            }
+        }
+    }
+
+    return 'localhost';
+}
+
+// Server berjalan di IP lokal dan port 3000
+const ip = getLocalIP();
+const createClient = (id) => {
+    // ✅ Cek jika session sudah aktif sebelumnya
+    if (sessions[id]) {
+        console.log(`⚠️ Session "${id}" sudah aktif, skip inisialisasi ulang.`);
+        return sessions[id]; // langsung kembalikan client yang sudah ada
+    }
+
+    console.log(`🚀 Memulai sesi baru: ${id}`);
+
+    const client = new Client({
+        // authStrategy: new LocalAuth({ clientId: id }),
+        authStrategy: new LocalAuth({
+            clientId: id,
+            dataPath: path.join(__dirname, '.wwebjs_auth', `session-${id}`)
+        }),
+        puppeteer: {
+            headless: true, //true
+            executablePath: 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe', // ← Tambahkan ini jika perlu
+            args: ['--no-sandbox', '--disable-setuid-sandbox'],
+            // args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-gpu', '--disable-dev-shm-usage']
+        }
+    });
+
+    // ⬅️ QR code handler
+    client.on('qr', (qr) => {
+        console.log(`🟨 QR Code diterima untuk sesi "${id}".`);
+        qrcode.toDataURL(qr, (err, url) => {
+            if (!err) {
+                io.emit(`qr-${id}`, url);
+            } else {
+                console.error("❌ Gagal membuat QR Code:", err);
+            }
+        });
+    });
+
+    // ⬅️ Ready handler
+    client.on('ready', async () => {
+        console.log(`✅ Sesi "${id}" sudah siap.`);
+        io.emit(`ready-${id}`, `${id} is ready`);
+        io.emit(`qr-${id}`, ""); // sembunyikan QR
+
+        // Kirim pesan otomatis di sini, bukan di 'authenticated'
+        try {
+            const number = '6285329860005'; // nomor tujuan
+            const message = `Informasi Whatsapp telah aktif aktif pada Id : ${id} tanpa scan ulang QrCode`;
+            const chatId = `${number}@c.us`;
+            const msg = await client.sendMessage(chatId, message, { linkPreview: true });
+            console.log(`✅ Pesan berhasil dikirim ke ${number}`);
+        } catch (error) {
+            console.error(`❌ Gagal kirim pesan otomatis ke ${number}:`, error.message);
+        }
+    });
+
+    // ⬅️ Auth handler
+    client.on('authenticated', () => {
+        console.log(`🔐 Sesi "${id}" berhasil login.`);
+    });
+
+    // 🔑 Tunggu ready sebelum kirim pesan
+    client.on('ready', async () => {
+        console.log(`✅ Sesi "${id}" siap, langsung kirim pesan.`);
+
+        // tandai siap
+        client.isReady = true;
+
+        try {
+            const number = '6285329860005'; // nomor tujuan
+            const message = `Informasi Whatsapp telah aktif pada Id : ${id}`;
+            const chatId = `${number}@c.us`;
+
+            const msg = await client.sendMessage(chatId, message);
+            console.log(`✅ Pesan berhasil dikirim ke ${number}`);
+        } catch (error) {
+            console.error(`❌ Gagal kirim pesan otomatis ke 6285329860005:`, error.message);
+        }
+    });
+    client.on('ready', () => {
+        console.log('Client siap');
+        client.isReady = true;
+        // Kirim pesan otomatis
+        sendTestMessage(client, '6285329860005', 'Informasi Whatsapp Baru diaktifkan!!!');
+    });
+
+    // Jika ingin trigger lagi setelah server restart:
+    if (client.info?.pushname) { // client sudah login
+        sendTestMessage(client, '6285329860005', 'Hello Bro, server baru restart!');
+    }
+
+    // ⬅️ Disconnect handler
+    client.on('disconnected', (reason) => {
+        console.log(`❌ Sesi "${id}" logout: ${reason}`);
+
+        // Hapus dari memory
+        delete sessions[id];
+
+        // Hapus folder sesi
+        const sessionPath = path.join(__dirname, 'sessions', id);
+        if (fs.existsSync(sessionPath)) {
+            fs.rmSync(sessionPath, { recursive: true, force: true });
+            console.log(`🧹 Folder sesi "${id}" dihapus.`);
+        }
+    });
+    client.on('ready', () => {
+        console.log('Bot siap!');
+    });
+    client.on('message', async (msg) => {
+        try {
+            // Kirim request ke Laravel API
+            const response = await axios.get(`http://${ip}/siakad/public/whatsapp/auto-reply`, {
+                params: {
+                    number: msg.from,
+                    message: msg.body,
+                    nosession: msg.to   // <== nomor WA session penerima
+                }
+            });
+
+            const replyText = response.data?.reply;
+            const fileUrl = response.data?.file;
+
+            // Kirim teks kalau ada
+            if (replyText) {
+                await client.sendMessage(msg.from, replyText);
+            }
+
+            // Kirim media kalau ada fileUrl valid
+            if (fileUrl && typeof fileUrl === 'string' && fileUrl.trim() !== '') {
+                try {
+                    // Bebas menggunakan file apapun asal disimpan di whatsapp/uploads/
+                    const media = MessageMedia.fromFilePath(fileUrl)
+
+                    await client.sendMessage(msg.from, media);
+                } catch (mediaErr) {
+                    console.error('Gagal kirim media:', mediaErr.message);
+                    await client.sendMessage(msg.from, '⚠️ Gagal mengirim file.');
+                }
+            }
+        } catch (err) {
+            // console.error('Error komunikasi dengan Laravel:', err.message);
+            // await client.sendMessage(msg.from, '⚠️ Maaf, terjadi kesalahan server / Pesan Anda tidak lengkap.');
+        }
+    });
+
+    client.initialize();
+
+    // ✅ Simpan ke daftar sesi
+    sessions[id] = client;
+
+    return client;
+};
+
+// API untuk memulai sesi baru
+app.post('/start-session', (req, res) => {
+    const { id } = req.body;
+    if (!id) return res.status(400).json({ error: 'ID wajib diisi' });
+
+    if (sessions[id]) {
+        return res.json({ message: 'Sesi sudah ada' });
+    }
+
+    createClient(id);
+    return res.json({ message: 'Sesi dimulai' });
+});
+
+// API untuk menghapus sesi
+app.delete('/remove-session/:sessionName', async (req, res) => {
+    const sessionName = req.params.sessionName;
+
+    if (!sessions[sessionName]) {
+        return res.status(400).json({ error: 'Session tidak ditemukan' });
+    }
+
+    try {
+        await sessions[sessionName].logout();
+        delete sessions[sessionName];
+
+        // Hapus folder auth
+        const sessionPath = path.join(__dirname, 'sessions', `session-${sessionName}`);
+        fs.rmSync(sessionPath, { recursive: true, force: true });
+
+        res.json({ success: true, message: "Sesi berhasil dihapus" });
+    } catch (error) {
+        console.error("Error saat menghapus sesi:", error);
+        res.status(500).json({ success: false, message: "Gagal menghapus sesi", error: error.message });
+    }
+});
+app.use(cors({ origin: '*' })); // 💡 Bisa diganti dengan origin tertentu jika butuh
+app.get('/status', (req, res) => {
+    res.json({ status: 'CONNECTED' });
+});
+
+// API untuk mengecek status sesi
+app.get('/status/:id', (req, res) => {
+    const { id } = req.params;
+    if (sessions[id]) {
+        res.json({ status: "connected" });
+    } else {
+        res.json({ status: "not connected" });
+    }
+});
+
+// API untuk mengirim pesan
+app.post('/send-message', async (req, res) => {
+    const { id, number, message } = req.body;
+
+    if (!sessions[id]) {
+        return res.status(400).json({ error: '❌ Session tidak ditemukan' });
+    }
+
+    try {
+        const chatId = `${number}@c.us`;
+
+        // Tangkap pesan jika butuh metadata (tidak wajib)
+        const msg = await sessions[id].sendMessage(chatId, message);
+
+        console.log(`✅ Pesan berhasil dikirim ke ${number} (via sesi "${id}")`);
+
+        // Bisa balikin HTTP 200 tanpa data
+        res.status(200).end();
+    } catch (error) {
+        //console.error(`❌ Gagal kirim pesan ke ${number}:`, error.message);
+        res.status(500).json({
+            error: '❌ Gagal mengirim pesan',
+            details: error.message
+        });
+    }
+});
+// kirim file
+app.get('/send-message', async (req, res) => {
+    const { id, number, message } = req.query; // ambil dari query string
+
+    if (!sessions[id]) {
+        return res.status(400).json({ error: '❌ Session tidak ditemukan' });
+    }
+
+    if (!number || !message) {
+        return res.status(400).json({ error: '❌ Parameter number atau message kosong' });
+    }
+
+    try {
+        const chatId = `${number}@c.us`;
+
+        // Kirim pesan via session WA
+        const msg = await sessions[id].sendMessage(chatId, message);
+
+        console.log(`✅ Pesan berhasil dikirim ke ${number} (via sesi "${id}")`);
+
+        // Balik status sukses
+        res.status(200).json({ status: true, message: 'Pesan berhasil dikirim' });
+    } catch (error) {
+        console.error(`❌ Gagal kirim pesan ke ${number}:`, error.message);
+        res.status(500).json({
+            status: false,
+            error: '❌ Gagal mengirim pesan',
+            details: error.message
+        });
+    }
+});
+
+app.post('/send-media', upload.single('media'), async (req, res) => {
+    const { id, number, caption } = req.body;
+    const file = req.file;
+
+    if (!sessions[id]) {
+        return res.status(400).json({ error: '❌ Session tidak ditemukan' });
+    }
+
+    if (!file) {
+        return res.status(400).json({ error: '❌ File media tidak ditemukan' });
+    }
+
+    try {
+        const filePath = file.path;
+        const filename = file.originalname;
+        const fileData = fs.readFileSync(filePath);
+        const mimeType = getMimeType(filename);
+
+        const media = new MessageMedia(
+            mimeType,
+            fileData.toString('base64'),
+            filename
+        );
+        await sessions[id].sendMessage(`${number}@c.us`, media, { caption });
+        console.log(`📎 Media ${filename} dikirim ke ${number} (via sesi "${id}")`);
+        res.status(200).json({ status: 'success', message: 'Media terkirim!' });
+    } catch (error) {
+        console.error(`❌ Gagal kirim media: ${error.message}`);
+        res.status(500).json({ error: '❌ Gagal kirim media', details: error.message });
+    }
+});
+// Ini Untuk kebutuhan group dan nomor
+app.post('/send-media-file', upload.single('media'), async (req, res) => {
+    const { id, number, caption } = req.body;
+    const file = req.file;
+
+    if (!sessions[id]) return res.status(400).json({ error: 'Session tidak ditemukan' });
+    if (!file) return res.status(400).json({ error: 'File media tidak ditemukan' });
+
+    const fileData = fs.readFileSync(file.path);
+    const mimeType = getMimeType(file.originalname); // misal 'image/png'
+    const media = new MessageMedia(mimeType, fileData.toString('base64'), file.originalname);
+
+    try {
+        const targets = Array.isArray(number) ? number : [number];
+        for (const n of targets) {
+            let receiverId = n;
+            if (!n.endsWith('@c.us') && !n.endsWith('@g.us')) receiverId = `${n}@c.us`;
+
+            await sessions[id].sendMessage(receiverId, media, { caption });
+            console.log(`📎 Media ${file.originalname} dikirim ke ${receiverId} (Base64)`);
+        }
+
+        res.json({ status: 'success' });
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).json({ error: 'Gagal kirim media', details: err.message });
+    }
+});
+
+// API untuk ambil semua anggota grup
+app.get('/group-members/:groupId', async (req, res) => {
+    const sessionId = req.query.id || req.headers['x-session-id']; // ambil session id dari query/header
+    if (!sessionId) return res.status(400).json({ error: 'Session ID dibutuhkan' });
+
+    const client = sessions[sessionId];
+    if (!client) return res.status(404).json({ error: 'Session tidak ditemukan' });
+
+    try {
+        const chat = await client.getChatById(req.params.groupId);
+        if (!chat.isGroup) return res.status(400).send('Bukan grup');
+
+        const members = chat.participants.map(m => m.id.user);
+        res.json(members);
+    } catch (err) {
+        res.status(500).send(err.message);
+    }
+});
+
+// app.get('/get-groups', async (req, res) => {
+//     const sessionId = req.query.id;
+//     const client = sessions[sessionId];
+
+//     if (!client) {
+//         return res.status(404).json({ status: false, message: '❌ Session tidak ditemukan' });
+//     }
+
+//     try {
+//         const chats = await client.getChats();
+//         const groups = chats
+//             .filter(chat => chat.isGroup)
+//             .map(group => ({
+//                 id: group.id._serialized,
+//                 name: group.name,
+//                 participants: group.participants?.length || 0
+//             }));
+
+//         res.status(200).json({ status: true, groups });
+//     } catch (error) {
+//         console.error('❌ Error saat ambil grup:', error);
+//         res.status(500).json({ status: false, message: '❌ Gagal ambil grup', error: error.toString() });
+//     }
+// });
+app.get('/get-groups', async (req, res) => {
+    const sessionId = req.query.id;
+    const client = sessions[sessionId];
+
+    if (!client || !client.info) { // pastikan client ready
+        return res.status(404).json({ status: false, message: '❌ Session tidak ditemukan atau belum siap' });
+    }
+
+    try {
+        const chats = await client.getChats();
+        const groups = chats
+            .filter(chat => chat.isGroup)
+            .map(group => ({
+                id: group.id._serialized,
+                name: group.name,
+                participants: group.participants?.length || 0
+            }));
+
+        res.status(200).json({ status: true, groups });
+    } catch (error) {
+        console.error('❌ Error saat ambil grup:', error);
+        res.status(500).json({ status: false, message: '❌ Gagal ambil grup', error: error.toString() });
+    }
+});
+
+app.get('/send-message-get', async (req, res) => {
+    const { id, number, message } = req.query;
+
+    if (!sessions[id]) {
+        return res.status(400).json({ error: '❌ Session tidak ditemukan' });
+    }
+
+    try {
+        const chatId = `${number}@c.us`;
+
+        // Kirim pesan ke nomor tujuan
+        const msg = await sessions[id].sendMessage(chatId, message);
+
+        console.log(`✅ Pesan berhasil dikirim ke ${number} (via sesi "${id}")`);
+
+        res.status(200).json({ success: true, message: 'Pesan berhasil dikirim' });
+    } catch (error) {
+        res.status(500).json({
+            error: '❌ Gagal mengirim pesan',
+            details: error.message
+        });
+    }
+});
+
+// API untuk logout
+app.post('/logout', (req, res) => {
+    const { id } = req.body;
+    if (!sessions[id]) return res.status(400).json({ error: 'Session tidak ditemukan' });
+
+    sessions[id].logout();
+    delete sessions[id];
+    res.json({ success: true, message: 'Logged out' });
+});
+
+// // Server berjalan di IP lokal dan port 3000
+// const ip = getLocalIP();
+// 🧯 Tangkap error agar server tidak keluar tiba-tiba
+process.on('uncaughtException', (err) => {
+    console.error('❌ Uncaught Exception:', err);
+    // Tidak pakai process.exit() agar server tetap hidup
+});
+
+process.on('unhandledRejection', (reason, p) => {
+    console.error('⚠️ Unhandled Promise Rejection:', reason);
+    // Optional: log lebih lanjut
+});
+
+async function activateSessions() {
+    try {
+        const response = await axios.get("http://localhost/siakad/public/respon-aktif");
+        const data = response.data;
+
+        if (!data.success || data.akun_ids.length === 0) {
+            return console.log("Tidak ada akun_id ditemukan");
+        }
+
+        data.akun_ids.forEach(async (akunId) => {
+            let client = sessions[akunId];
+
+            if (!client) {
+                // Buat client baru dulu
+                console.log(`Membuat client baru untuk akun ${akunId}`);
+                client = await createClient(akunId);
+            }
+
+            // Setelah client dibuat, cek info.me
+            if (client.info && client.info.me) {
+                console.log(`Sesi akun ${akunId} sudah siap, aktif`);
+            } else {
+                console.log(`Akun ${akunId} belum scan QR, dilewati`);
+            }
+        });
+    } catch (err) {
+        console.error("Error saat aktivasi sesi:", err.message);
+    }
+}
+
+// Panggil otomatis saat server.js dijalankan
+activateSessions();
+
+server.listen(3000, '0.0.0.0', () => {
+    console.clear(); // Optional: bersihkan layar
+    console.log("=========================================");
+    console.log("  🔌 ATA DIGITAL WA GATEWAY & Boot Asisten  ");
+    console.log("=========================================");
+    console.log(" [✔] Memuat Modul...");
+    console.log(" [✔] Menyiapkan Session WhatsApp...");
+    console.log(" [⚙] Menyalakan Engine WebSocket...");
+    console.log("<----------------------------------------->");
+    console.log(" 📡 Tunggu hingga QR ditampilkan...");
+    console.log(" Jika sudah login, status akan muncul dan siap digunaka...");
+    console.log("-----------------------------------------");
+    console.log(" Dibangun oleh ATA DIGITAL 💡");
+    console.log(" Kontak    : 085329860005");
+    console.log(" Alamat    : Banjarharjo - Brebes, 52265 ");
+    console.log(` IP Server : http://${ip}:3000 `);
+    console.log("=========================================\n");
+
+    // // langsung bikin sesi tanpa request HTTP
+    // if (!sessions['GuruId']) {
+    //     createClient('GuruId');
+    //     console.log('Sesi GuruId dibuat langsung dari server.js');
+    // }
+
+    const sessionPath = path.join(__dirname, '.wwebjs_auth', 'session-GuruId');
+    const logFile = path.join(__dirname, 'runwa.log');
+    const logStream = fs.createWriteStream(logFile, { flags: 'a' });
+
+    // fungsi bantu log ke console + file
+    function log(msg) {
+        const time = new Date().toISOString();
+        const line = `[${time}] ${msg}\n`;
+        process.stdout.write(line); // console
+        logStream.write(line);      // file
+    }
+
+    // cek session GuruId
+    if (fs.existsSync(sessionPath)) {
+        createClient('GuruId'); // sudah ada session → langsung login
+        log('✅ Client GuruId dibuat menggunakan sesi yang sudah login');
+    } else {
+        log('⚠ Tidak ada sesi GuruId, client tidak dibuat');
+    }
+
+    // tandai server aktif
+    log('🚀 Server aktif dan siap digunakan');
+    console.log(`Server siap digunakan`);
+
+    //// Jalankan batch file setelah server siap jalan
+    // const { exec } = require('child_process');
+    // exec('start "" "E:\\laragon\\www\\siakad\\whatsapp\\Jalankan ID Whatsapp.bat"', (err, stdout, stderr) => {
+    //     if (err) {
+    //         console.error('Gagal jalankan bat:', err);
+    //         return;
+    //     }
+
+    //     console.log('Batch file berhasil dijalankan:', stdout);
+    // });
+    // const { spawn } = require('child_process');
+
+    // const waSession = spawn('php', ['artisan', 'start:wa-sessions'], { shell: true, stdio: 'inherit' });
+
+    // // Cek output WA session, kalau sudah login
+    // waSession.stdout.on('data', (data) => {
+    //     const str = data.toString();
+    //     if (str.toLowerCase().includes('connected')) { // sesuaikan string log Laravel WA
+    //         console.log('[✔] Session GuruId connected');
+    //         spawn('php', ['artisan', 'start:ServerAktif'], { shell: true, stdio: 'inherit' });
+    //     }
+    // });
+});
