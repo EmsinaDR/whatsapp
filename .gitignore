@@ -1,0 +1,17 @@
+*.bat
+.wwebjs_auth
+.wwebjs_cache
+node_modules
+backupserver
+runwa.log
+schedule.log
+*.txt
+Update Whatsapp.exe
+server_real.js
+node_modules
+#server.bak
+server_real_20250915.js
+schedule.err
+server_real_20250915.js
+Jalankan ID Whatsapp.bat
+server
