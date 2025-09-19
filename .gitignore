@@ -5,6 +5,7 @@ node_modules
 backupserver
 runwa.log
 schedule.log
+*.txt
 Update Whatsapp.exe
 server_real.js
 node_modules
